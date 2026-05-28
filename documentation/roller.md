@@ -18,10 +18,10 @@ Her er en oversigt over, hvem der har hvilke ansvarsområder i vores projekt:
 
 
 ### Forklaring af rollerne:
-**Owner:** Opretteren af GitHub repository'et – alle har dog fuld adgang hertil.
-**Admin:** Holder styr på deadlines, opretter opgaver i GitHub Projects, skriver projektplan og roadmap, osv.
-**Udvikler:** Ansvarlig for HTML-siderne og GitHub repository.
-**Designer:** Ansvarlig for CSS og det visuelle udtryk, laver designdokumentet.
+- **Owner:** Opretteren af GitHub repository'et – alle har dog fuld adgang hertil.
+- **Admin:** Holder styr på deadlines, opretter opgaver i GitHub Projects, skriver projektplan og roadmap, osv.
+- **Udvikler:** Ansvarlig for HTML-siderne og GitHub repository.
+- **Designer:** Ansvarlig for CSS og det visuelle udtryk, laver designdokumentet.
 
 
 I stedet for at opdele koden helt i siloer, valgte vi en agil og kollaborativ tilgang:
