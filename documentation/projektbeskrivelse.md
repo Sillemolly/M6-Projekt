@@ -1,4 +1,4 @@
-# The IT-girly's Guide to University
+# The IT-Girly's Guide to University
 
 ## Hvad er projektet?
 - En hjemmeside som skal guide nye og nuværende kvindelige universitetsstuderende, der ønsker at tage en uddannelse i IT på AAU. 
