@@ -1,9 +1,9 @@
 # The IT-girly's Guide to University
 
 ## Hvad er projektet?
-- En hjemmeside som skal guide nye og nuværende kvindelige universitetsstuderende, der ønsker at tage en uddannelse i IT. 
+- En hjemmeside som skal guide nye og nuværende kvindelige universitetsstuderende, der ønsker at tage en uddannelse i IT på AAU. 
 - Hjemmesiden skal give et overblik eller en guide til, hvordan det er at gå på en tech-uddannelse som kvinde, og tilbyde tips og tricks til at klare den!
-- Eksempelvis: Survival guide til eksamener, Læseguide/tips, balance mellem uni- og privatlivet
+    - Eksempler på undersider: 'Survival-guide' til eksamener, 'Work-life-balance', 'Socialt liv'
 - Skal gøre det mere indbydende og tilgængeligt for unge kvinder, der skal vælge uddannelse. 
 
 ### Hvem er brugeren?
