@@ -24,6 +24,7 @@ Her er en oversigt over, hvem der har hvilke ansvarsområder i vores projekt:
 - **Designer:** Ansvarlig for CSS og det visuelle udtryk, laver designdokumentet.
 
 
+### Generelt:
 I stedet for at opdele koden helt i siloer, valgte vi en agil og kollaborativ tilgang:
 - **Sparring:** Vi har brugt hinanden som aktive sparringspartnere ved computeren, hvor vi har løst komplekse Git- og kodeudfordringer i fællesskab.
 - **Læring gennem 'Peer Review':** Vi har gennemset og godkendt hinandens kode. Dette har givet os alle en dybere teknisk forståelse og minimeret fejl i det endelige repository.
