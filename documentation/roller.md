@@ -7,7 +7,7 @@ Vi har fordelt nogle formelle ansvarsområder i gruppen. Da vi er et lille team 
 Vi har fungeret som hinandens primære sparringspartnere gennem hele forløbet. Da det tekniske aspekt (HTML, CSS og GitHub) har været en læringsproces for os alle, da vi alle er nybegyndere, har vi lagt stor vægt på kollektiv problemløsning, hvor vi har hjulpet og suppleret hinanden på tværs af de formelle roller.
 
 
-Her er en oversigt over, hvem der har hvilke ansvarsområder og adgangsniveauer i vores GitHub-repository:
+Her er en oversigt over, hvem der har hvilke ansvarsområder i vores projekt:
 
 | Navn / GitHub-bruger | Rolle | Primære Ansvarsområder | Backup / Suppleant |
 | :--- | :--- | :--- | :--- |
