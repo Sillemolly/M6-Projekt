@@ -12,8 +12,8 @@ Her er en oversigt over, hvem der har hvilke ansvarsområder og adgangsniveauer 
 | Navn / GitHub-bruger | Rolle | Primære Ansvarsområder | Backup / Suppleant |
 | :--- | :--- | :--- | :--- |
 | **@SilleMolly** (Sille) | Owner | Opretteren af GitHub repository | @pernillekjaergaard @git-jhc |
-| **@SilleMolly** (Sille) | Designer | CSS og design / designdokument | @pernillekjaergaard @git-jhc |
 | **@pernillekjaergaard** (Pernille) | Admin | Overblik, GitHub Projects, mm. | @git-jhc @SilleMolly |
+| **@SilleMolly** (Sille) | Designer | CSS og design / designdokument | @pernillekjaergaard @git-jhc |
 | **@git-jhc** (Janne) | Udvikler | HTML ansvarlig + repository | @pernillekjaergaard @SilleMolly |
 
 
@@ -26,5 +26,5 @@ Her er en oversigt over, hvem der har hvilke ansvarsområder og adgangsniveauer 
 
 I stedet for at opdele koden helt i siloer, valgte vi en agil og kollaborativ tilgang:
 - **Sparring:** Vi har brugt hinanden som aktive sparringspartnere ved computeren, hvor vi har løst komplekse Git- og kodeudfordringer i fællesskab.
--     **Læring gennem 'Peer Review':** Vi har gennemset og godkendt hinandens kode. Dette har givet os alle en dybere teknisk forståelse og minimeret fejl i det endelige repository.
+- **Læring gennem 'Peer Review':** Vi har gennemset og godkendt hinandens kode. Dette har givet os alle en dybere teknisk forståelse og minimeret fejl i det endelige repository.
 - **Fælles ejerskab:** Selvom én person har haft det endelige ansvar f.eks. for en specifik HTML-side, har alle bidraget til koden og designet.
