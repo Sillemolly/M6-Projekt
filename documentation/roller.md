@@ -11,14 +11,14 @@ Her er en oversigt over, hvem der har hvilke ansvarsområder i vores projekt:
 
 | Navn / GitHub-bruger | Rolle | Primære Ansvarsområder | Backup / Suppleant |
 | :--- | :--- | :--- | :--- |
-| **Sille (@Sillemolly)** | Owner | Opretteren af GitHub repository | Pernille + Janne |
+| **Sille (@Sillemolly)** | Owner | Ejeren af GitHub repository | Pernille + Janne |
 | **Pernille (@pernillekjaergaard)** | Admin | Overblik, GitHub Projects, mm. | Janne + Sille |
 | **Sille (@Sillemolly)** | Designer | CSS og design / designdokument | Pernille + Janne |
 | **Janne (@git-jhc)** | Udvikler | HTML ansvarlig + repository | Pernille + Sille |
 
 
 ### Forklaring af rollerne:
-- **Owner:** Opretteren af GitHub repository'et – alle har dog fuld adgang hertil.
+- **Owner:** Opretteren og ejeren af GitHub repository'et.
 - **Admin:** Holder styr på deadlines, opretter opgaver i GitHub Projects, skriver projektplan og roadmap, osv.
 - **Udvikler:** Ansvarlig for HTML-siderne og GitHub repository.
 - **Designer:** Ansvarlig for CSS og det visuelle udtryk, laver designdokumentet.
