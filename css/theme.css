@@ -1,0 +1,329 @@
+/* ============================================
+   THEME.CSS â€“ Farver, Typografi, Visuel Identitet
+   IT-Girl's Guide to University
+   ============================================ */
+
+/* ---------- CSS Variabler / Color Palette ---------- */
+:root {
+  /* PrimÃ¦re farver */
+  --color-bg:           #fdf6f9;       /* Meget lys blush â€“ sidens baggrund */
+  --color-bg-light:     #f5eaf0;       /* Lys rosa sektion */
+  --color-dark:         #1a1a2e;       /* Navy/mÃ¸rk â€“ tekst og footer */
+
+  /* Accent â€“ lilla/pink */
+  --color-accent:       #f2a7c3;       /* Lys pink â€“ highlights */
+  --color-accent-mid:   #c97fb5;       /* Medium lilla-pink */
+  --color-accent-dark:  #8b3a7e;       /* Dyb lilla â€“ CTA, links, borders */
+
+  /* Tekst */
+  --color-text-muted:   #5c4f5c;       /* BlÃ¸d lilla-grÃ¥ til brÃ¸dtekst */
+
+  /* Ekstra */
+  --color-white:        #ffffff;
+  --color-star:         #f2a7c3;
+}
+
+/* ---------- Forside-specifik Hero styling ---------- */
+.hero--home {
+  background: var(--color-bg);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtil grid-baggrund som i Figma-designet */
+.hero--home::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(194, 127, 181, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(194, 127, 181, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+}
+
+/* BlÃ¸d lysblob bag hero-tekst */
+.hero--home::after {
+  content: '';
+  position: absolute;
+  top: -10%;
+  right: -5%;
+  width: 55%;
+  height: 80%;
+  background: radial-gradient(ellipse at center, rgba(242,167,195,0.35) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ---------- Floating stjerner-dekoration ---------- */
+.hero__stars {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  animation: float 4s ease-in-out infinite;
+}
+
+.star--1  { width: 60px;  height: 60px;  top: 10%; right: 15%; background: var(--color-accent);     animation-delay: 0s;    opacity: 0.9; border-radius: 40% 60% 55% 45% / 50% 40% 60% 50%; }
+.star--2  { width: 42px;  height: 42px;  top: 25%; right: 35%; background: #d4a5c9;                 animation-delay: 0.8s;  opacity: 0.7; border-radius: 50%; }
+.star--3  { width: 80px;  height: 80px;  top: 40%; right: 8%;  background: var(--color-accent-mid); animation-delay: 1.5s;  opacity: 0.6; border-radius: 30% 70% 60% 40% / 60% 30% 70% 40%; }
+.star--4  { width: 28px;  height: 28px;  top: 60%; right: 30%; background: #c0d0e8;                 animation-delay: 2.0s;  opacity: 0.8; border-radius: 50%; }
+.star--5  { width: 50px;  height: 50px;  top: 70%; right: 50%; background: var(--color-accent);     animation-delay: 0.5s;  opacity: 0.5; border-radius: 60% 40% 50% 50% / 40% 60% 40% 60%; }
+.star--6  { width: 35px;  height: 35px;  top: 15%; right: 55%; background: #d4bce8;                 animation-delay: 1.2s;  opacity: 0.6; border-radius: 50%; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-18px) rotate(8deg); }
+}
+
+/* ---------- Tips-sektion (forside) â€“ pink baggrund ---------- */
+.tips-section {
+  background: var(--color-accent);
+  padding: 5rem 2.5rem;
+}
+
+.tips-section .section__eyebrow {
+  color: var(--color-dark);
+}
+
+.tips-section .section__title {
+  color: var(--color-dark);
+}
+
+.tips-section .section__subtitle {
+  color: rgba(26,26,46,0.7);
+}
+
+/* Card styling i pink sektion */
+.tips-section .card {
+  background: white;
+  border-radius: 4px;
+}
+
+.tips-section .card__image-placeholder {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: var(--color-bg-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--color-accent-mid);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ---------- Uddannelse-split sektion (forside) ---------- */
+.edu-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.edu-split__text {
+  background: var(--color-bg);
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.edu-split__image {
+  background: var(--color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Disco-bold dekorativt element */
+.edu-split__image::after {
+  content: 'âœ¦';
+  font-size: 14rem;
+  color: rgba(242,167,195,0.15);
+  position: absolute;
+  line-height: 1;
+}
+
+/* ---------- CTA / Quote sektion ---------- */
+.quote-section {
+  background: var(--color-bg-light);
+  padding: 5rem 2.5rem;
+  text-align: center;
+}
+
+.quote-section blockquote {
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--color-dark);
+}
+
+.quote-section blockquote::before {
+  content: '"';
+  display: block;
+  font-size: 5rem;
+  line-height: 0.6;
+  color: var(--color-accent-dark);
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Undersider â€“ page-header varianter ---------- */
+.page-header--pink {
+  background: linear-gradient(135deg, var(--color-accent-dark) 0%, var(--color-accent-mid) 100%);
+}
+
+.page-header--dark {
+  background: var(--color-dark);
+}
+
+/* ---------- Eksamens survival kort-styling ---------- */
+.survival-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: var(--color-accent-dark);
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Ã˜konomi-tabel ---------- */
+.economy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.economy-table th {
+  background: var(--color-dark);
+  color: white;
+  padding: 0.9rem 1.2rem;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.economy-table td {
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid var(--color-bg-light);
+  color: var(--color-dark);
+}
+
+.economy-table tr:nth-child(even) td {
+  background: var(--color-bg);
+}
+
+.economy-table tr:hover td {
+  background: var(--color-bg-light);
+}
+
+/* ---------- Social forenings-grid ---------- */
+.clubs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-bg-light);
+}
+
+.club-card {
+  background: white;
+  padding: 2rem;
+  transition: background 0.2s ease;
+}
+
+.club-card:hover {
+  background: var(--color-bg);
+}
+
+.club-card__emoji {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.club-card__name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: 0.5rem;
+}
+
+.club-card__desc {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* ---------- App / Info links (information.html) ---------- */
+.link-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  background: white;
+  border-bottom: 1px solid var(--color-bg-light);
+  transition: background 0.2s ease;
+}
+
+.link-card:hover {
+  background: var(--color-bg);
+}
+
+.link-card__icon {
+  width: 44px;
+  height: 44px;
+  background: var(--color-accent);
+  border-radius: 2px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.link-card__title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--color-dark);
+  margin-bottom: 0.2rem;
+}
+
+.link-card__desc {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+/* ---------- Responsive theme tweaks ---------- */
+@media (max-width: 900px) {
+  .edu-split {
+    grid-template-columns: 1fr;
+  }
+
+  .clubs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .clubs-grid {
+    grid-template-columns: 1fr;
+  }
+}
