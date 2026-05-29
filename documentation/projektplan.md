@@ -1,4 +1,4 @@
-Projektplan
+# Projektplan
 
 En detaljeret beskrivelse af alt vi tænker at gøre i projektet
 
