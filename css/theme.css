@@ -61,32 +61,19 @@
   height: 100%;
   min-height: 400px;
 }
-
-.star-img {
+ 
+.star {
   position: absolute;
-  width: 120px;
-  height: auto;
+  border-radius: 50%;
   animation: float 4s ease-in-out infinite;
 }
-
-.star-img--1 {
-  top: 12%;
-  right: 20%;
-}
-
-.star-img--2 {
-  top: 35%;
-  right: 8%;
-  width: 140px;
-  animation-delay: 0.8s;
-}
-
-.star-img--3 {
-  bottom: 15%;
-  right: 28%;
-  width: 115px;
-  animation-delay: 1.4s;
-}
+ 
+.star--1  { width: 60px;  height: 60px;  top: 10%; right: 15%; background: var(--color-accent);     animation-delay: 0s;    opacity: 0.9; border-radius: 40% 60% 55% 45% / 50% 40% 60% 50%; }
+.star--2  { width: 42px;  height: 42px;  top: 25%; right: 35%; background: #d4a5c9;                 animation-delay: 0.8s;  opacity: 0.7; border-radius: 50%; }
+.star--3  { width: 80px;  height: 80px;  top: 40%; right: 8%;  background: var(--color-accent-mid); animation-delay: 1.5s;  opacity: 0.6; border-radius: 30% 70% 60% 40% / 60% 30% 70% 40%; }
+.star--4  { width: 28px;  height: 28px;  top: 60%; right: 30%; background: #c0d0e8;                 animation-delay: 2.0s;  opacity: 0.8; border-radius: 50%; }
+.star--5  { width: 50px;  height: 50px;  top: 70%; right: 50%; background: var(--color-accent);     animation-delay: 0.5s;  opacity: 0.5; border-radius: 60% 40% 50% 50% / 40% 60% 40% 60%; }
+.star--6  { width: 35px;  height: 35px;  top: 15%; right: 55%; background: #d4bce8;                 animation-delay: 1.2s;  opacity: 0.6; border-radius: 50%; }
 
 @keyframes float {
   0%, 100% { transform: translateY(0px) rotate(0deg); }
