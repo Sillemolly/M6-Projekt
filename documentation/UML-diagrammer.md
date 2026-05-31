@@ -14,11 +14,16 @@ Vi har valgt dette diagram, fordi det giver et klart overblik over funktionerne 
 
 I vores projekt viser diagrammet blandt andet, at brugeren kan:
 
-- Besøge forsiden
-- Navigere mellem undersider
-- Læse studieguide
-- Læse information om økonomi og SU
-- Finde sociale og faglige ressourcer
+-Læse om IT-uddannelser på AAU
+-Læse studieguide og studieteknikker
+-Læse eksamens survival guide
+-Læse om work-life-balance
+-Finde sociale foreninger og events
+-Læse økonomi- og SU-tips
+-Finde nyttige links og apps
+-Navigere mellem sider via menuen
+
+Se diagrammet i mappen "images" og filen "Use Case Diagram"
 
 ---
 
@@ -28,4 +33,6 @@ Sequence Diagrammet bruges til at illustrere rækkefølgen af interaktioner mell
 
 Vi har valgt dette diagram, fordi det viser den konkrete proces, der finder sted, når en bruger navigerer på hjemmesiden. Diagrammet gør det muligt at visualisere dataflowet og samspillet mellem bruger, browser og hjemmesidens filer.
 
-I vores projekt viser diagrammet eksempelvis processen, når en bruger åbner forsiden og navigerer videre til en underside. Det hjælper med at forstå systemets dynamiske adfærd og den tekniske in
+I vores projekt viser diagrammet eksempelvis processen, når en bruger åbner forsiden og navigerer videre til en underside. Det hjælper med at forstå systemets dynamiske adfærd og den tekniske interaktion mellem systemets komponenter.
+
+Se diagrammet i mappen "images" og filen "Sequence Diagram"
