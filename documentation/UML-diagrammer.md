@@ -14,14 +14,14 @@ Vi har valgt dette diagram, fordi det giver et klart overblik over funktionerne 
 
 I vores projekt viser diagrammet blandt andet, at brugeren kan:
 
--Læse om IT-uddannelser på AAU
--Læse studieguide og studieteknikker
--Læse eksamens survival guide
--Læse om work-life-balance
--Finde sociale foreninger og events
--Læse økonomi- og SU-tips
--Finde nyttige links og apps
--Navigere mellem sider via menuen
+- Læse om IT-uddannelser på AAU
+- Læse studieguide og studieteknikker
+- Læse eksamens survival guide
+- Læse om work-life-balance
+- Finde sociale foreninger og events
+- Læse økonomi- og SU-tips
+- Finde nyttige links og apps
+- Navigere mellem sider via menuen
 
 Se diagrammet i mappen "images" og filen "Use Case Diagram"
 
