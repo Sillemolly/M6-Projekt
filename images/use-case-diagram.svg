@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" font-family="Georgia, serif">
+
+  <!-- Baggrund -->
+  <rect width="900" height="620" fill="#fdf6f9"/>
+
+  <!-- Titel -->
+  <text x="450" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a2e">Use Case Diagram – IT-Girl's Guide to University</text>
+
+  <!-- System boundary -->
+  <rect x="180" y="60" width="580" height="520" rx="8" fill="white" stroke="#8b3a7e" stroke-width="2"/>
+  <text x="470" y="88" text-anchor="middle" font-size="13" fill="#8b3a7e" font-style="italic">«system»  IT-Girl's Guide Website</text>
+
+  <!-- Aktør: IT-studerende -->
+  <!-- Hoved -->
+  <circle cx="65" cy="160" r="18" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+  <!-- Krop -->
+  <line x1="65" y1="178" x2="65" y2="230" stroke="#1a1a2e" stroke-width="2"/>
+  <!-- Arme -->
+  <line x1="35" y1="200" x2="95" y2="200" stroke="#1a1a2e" stroke-width="2"/>
+  <!-- Ben -->
+  <line x1="65" y1="230" x2="40" y2="265" stroke="#1a1a2e" stroke-width="2"/>
+  <line x1="65" y1="230" x2="90" y2="265" stroke="#1a1a2e" stroke-width="2"/>
+  <!-- Label -->
+  <text x="65" y="285" text-anchor="middle" font-size="12" fill="#1a1a2e">Ny IT-studerende</text>
+  <text x="65" y="300" text-anchor="middle" font-size="12" fill="#1a1a2e">(bruger)</text>
+
+  <!-- Use Case 1: Forside / overblik -->
+  <ellipse cx="370" cy="145" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="370" y="149" text-anchor="middle" font-size="12" fill="#1a1a2e">Få overblik over siden (forside)</text>
+
+  <!-- Use Case 2: Uddannelser -->
+  <ellipse cx="370" cy="215" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="370" y="219" text-anchor="middle" font-size="12" fill="#1a1a2e">Læse om IT-uddannelser på AAU</text>
+
+  <!-- Use Case 3: Studieguide -->
+  <ellipse cx="370" cy="285" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="370" y="289" text-anchor="middle" font-size="12" fill="#1a1a2e">Læse studieguide og teknikker</text>
+
+  <!-- Use Case 4: Eksamener -->
+  <ellipse cx="370" cy="355" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="370" y="359" text-anchor="middle" font-size="12" fill="#1a1a2e">Læse eksamens survival guide</text>
+
+  <!-- Use Case 5: Balance -->
+  <ellipse cx="630" cy="145" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="630" y="149" text-anchor="middle" font-size="12" fill="#1a1a2e">Læse om work-life-balance</text>
+
+  <!-- Use Case 6: Socialt liv -->
+  <ellipse cx="630" cy="215" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="630" y="219" text-anchor="middle" font-size="12" fill="#1a1a2e">Finde foreninger og socialt liv</text>
+
+  <!-- Use Case 7: Økonomi -->
+  <ellipse cx="630" cy="285" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="630" y="289" text-anchor="middle" font-size="12" fill="#1a1a2e">Læse økonomi- og SU-tips</text>
+
+  <!-- Use Case 8: Information -->
+  <ellipse cx="630" cy="355" rx="140" ry="28" fill="#f5eaf0" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="630" y="359" text-anchor="middle" font-size="12" fill="#1a1a2e">Finde nyttige links og apps</text>
+
+  <!-- Use Case 9: Navigation -->
+  <ellipse cx="500" cy="500" rx="140" ry="28" fill="#f2a7c3" stroke="#8b3a7e" stroke-width="1.5"/>
+  <text x="500" y="504" text-anchor="middle" font-size="12" fill="#1a1a2e">Navigere via menu mellem sider</text>
+
+  <!-- Forbindelseslinjer: aktør til use cases venstre kolonne -->
+  <line x1="83" y1="155" x2="228" y2="145" stroke="#5c4f5c" stroke-width="1.2"/>
+  <line x1="83" y1="165" x2="228" y2="215" stroke="#5c4f5c" stroke-width="1.2"/>
+  <line x1="83" y1="175" x2="228" y2="285" stroke="#5c4f5c" stroke-width="1.2"/>
+  <line x1="83" y1="185" x2="228" y2="355" stroke="#5c4f5c" stroke-width="1.2"/>
+
+  <!-- Forbindelseslinjer: aktør til use cases højre kolonne -->
+  <line x1="83" y1="155" x2="488" y2="145" stroke="#5c4f5c" stroke-width="1.2"/>
+  <line x1="83" y1="165" x2="488" y2="215" stroke="#5c4f5c" stroke-width="1.2"/>
+  <line x1="83" y1="175" x2="488" y2="285" stroke="#5c4f5c" stroke-width="1.2"/>
+  <line x1="83" y1="185" x2="488" y2="355" stroke="#5c4f5c" stroke-width="1.2"/>
+
+  <!-- Forbindelseslinje: aktør til navigation -->
+  <line x1="83" y1="195" x2="358" y2="500" stroke="#5c4f5c" stroke-width="1.2"/>
+
+  <!-- Include pile fra navigation til de øvrige use cases -->
+  <line x1="500" y1="472" x2="370" y2="383" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="370" y2="313" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="370" y2="243" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="370" y2="173" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="630" y2="383" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="630" y2="313" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="630" y2="243" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="500" y1="472" x2="630" y2="173" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <!-- Include label -->
+  <text x="415" y="445" font-size="10" fill="#8b3a7e" font-style="italic">«include»</text>
+
+  <!-- Forklaring -->
+  <rect x="185" y="430" width="160" height="55" rx="4" fill="white" stroke="#c97fb5" stroke-width="1"/>
+  <text x="195" y="450" font-size="10" fill="#1a1a2e" font-weight="bold">Forklaring</text>
+  <line x1="195" y1="462" x2="215" y2="462" stroke="#5c4f5c" stroke-width="1.2"/>
+  <text x="220" y="465" font-size="10" fill="#1a1a2e">Association</text>
+  <line x1="195" y1="476" x2="215" y2="476" stroke="#8b3a7e" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="220" y="479" font-size="10" fill="#1a1a2e">«include»</text>
+
+</svg>
